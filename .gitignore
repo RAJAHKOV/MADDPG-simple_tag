@@ -1,0 +1,4 @@
+/results/**/*.log
+*.inspect.ndjson
+__pycache__/
+*.pyc

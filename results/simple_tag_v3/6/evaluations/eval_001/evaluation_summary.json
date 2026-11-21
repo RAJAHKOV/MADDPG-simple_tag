@@ -1,0 +1,16 @@
+{
+  "episodes": 10,
+  "successful_capture_episodes": 4,
+  "adversary_capture_success_rate": 0.4,
+  "average_capture_steps": 18.75,
+  "agent_escape_success_rate": 0.6,
+  "settings": {
+    "env_name": "simple_tag_v3",
+    "boundary_mode": "bounce",
+    "boundary_range": 1.5,
+    "boundary_penalty": 100.0,
+    "num_obstacles": 0,
+    "episode_length": 50,
+    "seed": 0
+  }
+}

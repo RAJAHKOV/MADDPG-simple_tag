@@ -1,0 +1,17 @@
+{
+  "env_name": "simple_tag_v3",
+  "episode_num": 2000,
+  "episode_length": 50,
+  "learn_interval": 100,
+  "random_steps": 50000,
+  "tau": 0.02,
+  "gamma": 0.95,
+  "buffer_capacity": 1000000,
+  "batch_size": 1024,
+  "actor_lr": 0.01,
+  "critic_lr": 0.01,
+  "device": "auto",
+  "boundary_mode": "punish",
+  "boundary_range": 1.5,
+  "boundary_penalty": 100.0
+}

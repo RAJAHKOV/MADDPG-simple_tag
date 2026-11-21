@@ -1,0 +1,11 @@
+﻿episode,steps,capture_success,capture_step,escaped_agents,total_good_agents,first_capture_steps
+1,50,False,,1,1,"{""agent_0"": null}"
+2,50,False,,1,1,"{""agent_0"": null}"
+3,50,True,20,0,1,"{""agent_0"": 20}"
+4,50,True,49,0,1,"{""agent_0"": 49}"
+5,50,False,,1,1,"{""agent_0"": null}"
+6,50,False,,1,1,"{""agent_0"": null}"
+7,50,True,18,0,1,"{""agent_0"": 18}"
+8,50,False,,1,1,"{""agent_0"": null}"
+9,50,False,,1,1,"{""agent_0"": null}"
+10,50,True,31,0,1,"{""agent_0"": 31}"

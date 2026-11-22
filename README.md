@@ -28,6 +28,27 @@ In this branch, I independently designed and implemented two different boundary 
 - Customized Evaluation Rendering: The eval scripts support pure Python drawing of the boundary box and real-time dynamic scoreboards (step rewards and cumulative episode rewards).
 - Automated Metrics: Automatically computes and outputs the Capture Rate, Escape Rate, and Average Capture Step.
 
+## Environment Dependencies
+
+This project implements MADDPG multi-agent reinforcement learning based on PyTorch, using the `mpe2` multi-agent environment.
+
+- **Base Image:** Ubuntu 22.04, Python 3.12, PyTorch 2.5.1, CUDA 12.1
+
+- **Python package versions:**
+```{txt}
+mpe2==1.1.1
+numpy==2.0.0
+matplotlib==3.9.0
+Pillow==10.3.0
+gymnasium==1.0.0
+tqdm==4.66.4
+```
+
+- **Installation**
+```{python}
+pip install -r requirements.txt
+```
+
 ## Usage
 
 1. Training (Penalty Mode):

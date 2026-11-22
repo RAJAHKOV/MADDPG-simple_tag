@@ -114,3 +114,9 @@ python evaluate.py simple_tag_v3 1 --episode-num 100 --boundary-mode punish --bo
 `evaluate.py` 的每个新评估目录除 GIF、奖励 CSV 和奖励曲线外，新增 `evaluation_metrics.csv`（逐回合成功状态、捕获步数、逃逸数、各逃跑者首次捕获步数）与 `evaluation_summary.json`（上述三项汇总和边界设置）。成功率在文件中保存为 0～1，控制台显示百分比；失败回合捕获步数为空，不混入平均值。`evaluate_backup.py` 也输出同名指标文件到模型目录，重复运行会更新这些指标文件。
 
 折现因子默认仍为 `gamma=0.95`。`python check_boundary_rewards.py` 可验证边界、奖励、统计和 PettingZoo 接口。需要兼容的运行依赖：NumPy、PyTorch、MPE2、PettingZoo、Gymnasium、pygame-ce、Matplotlib 和 Pillow；当前 MPE2 1.1.1 需要提供 `AgentSelector` 的较新 PettingZoo（例如 1.26.1）。
+
+## Branch Notice: Alternative Implementation
+
+The boundary constraint mechanisms discussed above represent the primary approach used in the `main` branch.
+
+To explore alternative technical routes, a separate independent development branch named **`dev-alternative`** was also created. It independently reproduces the MADDPG algorithm and implements a comparative study of boundary constraints (Soft Penalty vs. Hard Physical Rebound) by directly modifying the underlying physics engine (`World.integrate_state`). Please switch to the `dev-alternative` branch to view its specific implementation and evaluation scripts (`main_rebound.py`, `main_penalty.py`).

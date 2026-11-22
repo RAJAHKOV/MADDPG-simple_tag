@@ -1,8 +1,8 @@
-# Implementation and Optimization of MADDPG Multi-Agent Pursuit-Evasion (Branch: jiashuo)
+# Implementation and Optimization of MADDPG with PyTorch and PettingZoo (Branch: dev-alternative)
 
 ## Project Overview
 
-This project reproduces the Multi-Agent Deep Deterministic Policy Gradient (MADDPG) algorithm and deeply customizes it in the PettingZoo simple_tag_v3 environment. With `num_obstacles=0`, 3 adversaries must cooperate and utilize the boundaries to hunt down 1 agent.
+As an alternative development branch to the main project, this branch independently reproduces the Multi-Agent Deep Deterministic Policy Gradient (MADDPG) algorithm and deeply customizes it in the PettingZoo `simple_tag_v3` environment. With `num_obstacles=0`, 3 adversaries must learn to cooperate and utilize boundary constraints to hunt down 1 agent.
 
 ## Core Contribution: Comparative Study of Environmental Constraints
 

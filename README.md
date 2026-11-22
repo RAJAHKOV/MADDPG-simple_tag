@@ -119,4 +119,4 @@ python evaluate.py simple_tag_v3 1 --episode-num 100 --boundary-mode punish --bo
 
 The boundary constraint mechanisms discussed above represent the primary approach used in the `main` branch.
 
-To explore alternative technical routes, a separate independent development branch named **`dev-alternative`** was also created. It independently reproduces the MADDPG algorithm and implements a comparative study of boundary constraints (Soft Penalty vs. Hard Physical Rebound) by directly modifying the underlying physics engine (`World.integrate_state`). Please switch to the `dev-alternative` branch to view its specific implementation and evaluation scripts (`main_rebound.py`, `main_penalty.py`).
+To explore alternative technical routes, a separate independent development branch named **`dev-alternative`** was also created. It independently reproduces the MADDPG algorithm and implements a comparative study of boundary constraints (Soft Penalty vs. Hard Physical Rebound). Please switch to the `dev-alternative` branch to view its specific implementation and evaluation scripts (`main_rebound.py`, `main_penalty.py`).

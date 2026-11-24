@@ -58,13 +58,13 @@ actors for evaluation; it is not a full training-resume checkpoint.
 |  configuration   | episodes                        | evaluation result                                    | running time(s)
 |  ----  |------------------------------------------------------|------------------------------------------------------|---|
 | baseline | 5000 | <img src="assets/f1.gif" width="250" height="250"> |346
-| bounce  | 5000  | ![simple_adversary](assets/f2.gif) | 435
-| punish k=0.5  | 5000| ![](assets/f3.gif) |408
-| punish k=1  | 5000 | ![](assets/penalty1.gif) | 429
-| punish k=5  | 5000 | ![](assets/penalty5.gif)  | 427
-| punish k=10  | 5000  | ![](assets/penalty10.gif) | 415
-| punish b=5  | 2000   | ![](assets/f7.gif)|208
-| punish b=5   | 5000 | ![](assets/f8.gif) |534
+| bounce  | 5000  | <img src="assets/f2.gif" width="250" height="250"> | 435
+| punish k=0.5  | 5000| <img src="assets/f3.gif" width="250" height="250"> |408
+| punish k=1  | 5000 | <img src="assets/penalty1.gif" width="250" height="250"> | 429
+| punish k=5  | 5000 | <img src="assets/penalty5.gif" width="250" height="250">  | 427
+| punish k=10  | 5000  | <img src="assets/penalty10.gif" width="250" height="250"> | 415
+| punish b=5  | 2000   | <img src="assets/f7.gif" width="250" height="250">|208
+| punish b=5   | 5000 | <img src="assets/f8.gif" width="250" height="250"> |534
 
 
 

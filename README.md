@@ -57,7 +57,7 @@ actors for evaluation; it is not a full training-resume checkpoint.
 
 |  configuration   | episodes                        | evaluation result                                    | running time(s)
 |  ----  |------------------------------------------------------|------------------------------------------------------|---|
-| baseline | 5000 | ![](assets/f1.gif,width="100",height="100") |346
+| baseline | 5000 | <img src="assets/f1.gif" width="250" height="250"> |346
 | bounce  | 5000  | ![simple_adversary](assets/f2.gif) | 435
 | punish k=0.5  | 5000| ![](assets/f3.gif) |408
 | punish k=1  | 5000 | ![](assets/penalty1.gif) | 429

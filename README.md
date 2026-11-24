@@ -55,16 +55,16 @@ actors for evaluation; it is not a full training-resume checkpoint.
 
 # Result
 
-|  configuration   | episodes                        | evaluation result                                    |
-|  ----  |------------------------------------------------------|------------------------------------------------------|
-| baseline | 5000 |
-| bounce  | 5000  | ![simple_adversary](archive/simple_adversary_v2.png) |\
-| punish k=0.5  | 5000|\
-| punish k=1  | 5000
-| punish k=5  | 5000 
-| punish k=10  | 5000
-| punish b=5  | 2000
-| punish b=5   | 5000 |
+|  configuration   | episodes                        | evaluation result                                    | running time(s)
+|  ----  |------------------------------------------------------|------------------------------------------------------|---|
+| baseline | 5000 |  |346
+| bounce  | 5000  | ![simple_adversary](archive/simple_adversary_v2.png) | 435
+| punish k=0.5  | 5000|  |408
+| punish k=1  | 5000 |  | 439
+| punish k=5  | 5000    | 427
+| punish k=10  | 5000  |  | 415
+| punish b=5  | 2000   | |208
+| punish b=5   | 5000 |  |534
 
 
 
